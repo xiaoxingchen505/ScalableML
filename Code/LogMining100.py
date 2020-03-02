@@ -8,7 +8,7 @@ spark = SparkSession.builder \
 sc = spark.sparkContext
 sc.setLogLevel("WARN")
 
-logFile=spark.read.text("Data/NASA_Aug95_100.txt")
+logFile=spark.read.text("/C:/Users/Alvin/Desktop/Courses/ScalableML/Data/NASA_Aug95_100.txt")
 hostsJapan = logFile.filter(logFile.value.contains(".jp")).count()
 
 print("\n\nHello Spark: There are %i hosts from Japan.\n\n" % (hostsJapan))
