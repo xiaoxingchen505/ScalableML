@@ -1,0 +1,28 @@
+Start an interactive session on a node
+
+qrshx
+
+Load java and conda
+
+module load apps/java/jdk1.8.0_102/binary
+
+module load apps/python/conda
+
+Create a virtual environment called myspark
+
+conda create -n myspark python=3.6
+
+When you are asked whether to proceed, say y
+
+Activate the environment
+
+source activate myspark
+
+Install spark and pyspark 2.3.2 from conda-forge
+
+conda install -c conda-forge pyspark=2.3.2
+
+When you are asked whether to proceed, say y
+
+Run spark
+pyspark
