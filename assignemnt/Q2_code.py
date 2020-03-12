@@ -11,11 +11,12 @@ import numpy as np
 
 spark = SparkSession.builder \
     .master("local[2]") \
+    .config("spark.local.dir","/fastdata/username") \
     .appName("COM6012 Assignment 1 Task2") \
-    .config("spark.driver.memory", "8g")\
     .getOrCreate()
 
 sc = spark.sparkContext
+sc.setLogLevel("OFF")
 
 sc.setCheckpointDir('checkpoint/')
 
@@ -48,9 +49,9 @@ test_list = [fold_2,fold_0,fold_1]
 
 als_1 = ALS(rank=10,maxIter=10, regParam=0.1, userCol="userId", itemCol="movieId", ratingCol="rating",
           coldStartStrategy="drop")
-als_2 = ALS(rank=25, maxIter=50, regParam=0.05, userCol="userId", itemCol="movieId", ratingCol="rating",
+als_2 = ALS(rank=10, maxIter=10, regParam=0.05, userCol="userId", itemCol="movieId", ratingCol="rating",
           coldStartStrategy="drop")
-als_3 = ALS(rank=50,maxIter=100, regParam=0.005, userCol="userId", itemCol="movieId", ratingCol="rating",
+als_3 = ALS(rank=10,maxIter=50, regParam=0.1, userCol="userId", itemCol="movieId", ratingCol="rating",
           coldStartStrategy="drop")
 
 rmse_evaluator = RegressionEvaluator(metricName="rmse", labelCol="rating",predictionCol="prediction")
