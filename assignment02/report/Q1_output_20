@@ -1,0 +1,142 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2020-05-10 04:52:42 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-05-10 04:52:44 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-05-10 04:52:44 WARN  SparkConf:66 - In Spark 1.0 and later spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone and LOCAL_DIRS in YARN).
+2020-05-10 04:52:44 INFO  SparkContext:54 - Submitted application: COM6012 Assignment Question——1
+2020-05-10 04:52:44 INFO  SecurityManager:54 - Changing view acls to: acq18xx
+2020-05-10 04:52:44 INFO  SecurityManager:54 - Changing modify acls to: acq18xx
+2020-05-10 04:52:44 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-05-10 04:52:44 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-05-10 04:52:44 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acq18xx); groups with view permissions: Set(); users  with modify permissions: Set(acq18xx); groups with modify permissions: Set()
+2020-05-10 04:52:44 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 39489.
+2020-05-10 04:52:44 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-05-10 04:52:44 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-05-10 04:52:44 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-05-10 04:52:44 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-05-10 04:52:44 INFO  DiskBlockManager:54 - Created local directory at /mnt/fastdata/acq18xx/blockmgr-0859feca-363b-4621-b282-a98beb14cc73
+2020-05-10 04:52:44 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2020-05-10 04:52:44 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-05-10 04:52:44 INFO  log:192 - Logging initialized @3266ms
+2020-05-10 04:52:44 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-05-10 04:52:44 INFO  Server:419 - Started @3328ms
+2020-05-10 04:52:44 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2020-05-10 04:52:44 WARN  Utils:66 - Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+2020-05-10 04:52:44 INFO  AbstractConnector:278 - Started ServerConnector@2d19b722{HTTP/1.1,[http/1.1]}{0.0.0.0:4042}
+2020-05-10 04:52:44 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4042.
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5a982eda{/jobs,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@38c83cc7{/jobs/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1609a952{/jobs/job,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@38057b76{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@415246b5{/stages,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1aca24f4{/stages/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@400fa39e{/stages/stage,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4bd0446f{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@767e0dd8{/stages/pool,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@300b9e8b{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1a4333e{/storage,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@489efc59{/storage/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4e88385f{/storage/rdd,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@229b18c3{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@286e26d{/environment,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3dc5aa50{/environment/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@32002777{/executors,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48a76cf4{/executors/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7d077a07{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6d80c8dd{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5e086185{/static,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5d8b985b{/,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1269af97{/api,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7ea4cd04{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@20e38c8f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-05-10 04:52:44 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node173.shef.ac.uk:4042
+2020-05-10 04:52:45 INFO  SparkContext:54 - Added file file:/home/acq18xx/ScalableML/assignment2/Q1_code.py at file:/home/acq18xx/ScalableML/assignment2/Q1_code.py with timestamp 1589082765053
+2020-05-10 04:52:45 INFO  Utils:54 - Copying /home/acq18xx/ScalableML/assignment2/Q1_code.py to /mnt/fastdata/acq18xx/spark-060e540a-5a8d-4521-a8ec-cc4e9e957a5e/userFiles-9bec2b54-f8ea-49dc-ac5a-872fb1d367f7/Q1_code.py
+2020-05-10 04:52:45 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-05-10 04:52:45 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39071.
+2020-05-10 04:52:45 INFO  NettyBlockTransferService:54 - Server created on sharc-node173.shef.ac.uk:39071
+2020-05-10 04:52:45 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-05-10 04:52:45 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 39071, None)
+2020-05-10 04:52:45 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node173.shef.ac.uk:39071 with 366.3 MB RAM, BlockManagerId(driver, sharc-node173.shef.ac.uk, 39071, None)
+2020-05-10 04:52:45 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node173.shef.ac.uk, 39071, None)
+2020-05-10 04:52:45 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node173.shef.ac.uk, 39071, None)
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e61fece{/metrics/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acq18xx/ScalableML/assignment2/spark-warehouse/').
+2020-05-10 04:52:45 INFO  SharedState:54 - Warehouse path is 'file:/home/acq18xx/ScalableML/assignment2/spark-warehouse/'.
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2d498684{/SQL,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5cce0f7{/SQL/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@38270b30{/SQL/execution,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b226bb6{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5fb35e93{/static/sql,null,AVAILABLE,@Spark}
+2020-05-10 04:52:45 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+
+----Start to find best parameters using accuracy metric----
+Random Forest Finding best model execution time: 769.0079560279846
+GBT Finding best model execution time: 2014.6086695194244
+
+-----Random Forest Score-----
+accuracy score: 0.7081395490036551
+AUC score: 0.7821201432123294
+                             
+--------GBT Score------------
+accuracy score: 0.720027686366893
+AUC score: 0.7977425517319181
+
+-------Random Forest best model parameter for accuracy metric-----------
+numTrees -  10
+maxDepth -  10
+maxBins -  15
+------------------------------------------
+
+---------------GBT best model parameter for accuracy metric-------------
+maxIter -  15
+maxDepth -  10
+maxBins -  15
+------------------------------------------
+
+----Start to find best parameters using auc metric----
+Random Forest Finding best model execution time: 531.0578453540802
+GBT Finding best model execution time: 2026.2471551895142
+
+-----Random Forest Score-----
+accuracy score: 0.7081395490036551
+AUC score: 0.7821201432123294
+                             
+--------GBT Score------------
+accuracy score: 0.720027686366893
+AUC score: 0.7977425517319181
+
+-------Random Forest best model parameter for auc metric-----------
+numTrees -  10
+maxDepth -  10
+maxBins -  15
+------------------------------------------
+
+---------------GBT best model parameter for auc metric-------------
+maxIter -  15
+maxDepth -  10
+maxBins -  15
+------------------------------------------
+
+----------------------------------
+Start to train dataset with best parameter...
+----------------------------------
+Random Forest with best parameter execution time: 626.2766864299774
+GBT with best parameter execution time: 4376.802089929581
+-----Random Forest Score-----
+accuracy score: 0.7083149199236427
+AUC score: 0.7827903653712812
+                             
+--------GBT Score------------
+accuracy score: 0.7253086026843872
+AUC score: 0.8051862708076711
+-------The most relevant Feature in random forest model---------
+        relevance
+m_bb     0.310474
+m_wbb    0.150659
+m_wwbb   0.132654
+-------The most relevant Feature in GBT model--------------------
+       relevance
+m_bb    0.130930
+m_jjj   0.094743
+m_jlv   0.090815

@@ -1,0 +1,83 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2020-05-10 04:50:37 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-05-10 04:50:41 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-05-10 04:50:41 WARN  SparkConf:66 - In Spark 1.0 and later spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone and LOCAL_DIRS in YARN).
+2020-05-10 04:50:41 INFO  SparkContext:54 - Submitted application: COM6012 Assignment Task2-2
+2020-05-10 04:50:41 INFO  SecurityManager:54 - Changing view acls to: acq18xx
+2020-05-10 04:50:41 INFO  SecurityManager:54 - Changing modify acls to: acq18xx
+2020-05-10 04:50:41 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-05-10 04:50:41 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-05-10 04:50:41 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acq18xx); groups with view permissions: Set(); users  with modify permissions: Set(acq18xx); groups with modify permissions: Set()
+2020-05-10 04:50:41 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 33792.
+2020-05-10 04:50:42 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-05-10 04:50:42 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-05-10 04:50:42 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-05-10 04:50:42 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-05-10 04:50:42 INFO  DiskBlockManager:54 - Created local directory at /mnt/fastdata/acq18xx/blockmgr-50e9c0fe-2db5-4386-9c76-5865ec690054
+2020-05-10 04:50:42 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2020-05-10 04:50:42 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-05-10 04:50:42 INFO  log:192 - Logging initialized @6023ms
+2020-05-10 04:50:42 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-05-10 04:50:42 INFO  Server:419 - Started @6088ms
+2020-05-10 04:50:42 INFO  AbstractConnector:278 - Started ServerConnector@5aba50b1{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2020-05-10 04:50:42 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1c54b146{/jobs,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2f5a9ddd{/jobs/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59b121b7{/jobs/job,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4fffd92a{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3430017d{/stages,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64dc32d5{/stages/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67e2d5c1{/stages/stage,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@67a562c4{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1698ff2c{/stages/pool,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b34baf7{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5c1fa549{/storage,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10e05f4c{/storage/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4150a3e3{/storage/rdd,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f7d5a3c{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2ee98377{/environment,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3ce1b3d9{/environment/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@78ea501d{/executors,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1da35986{/executors/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7fb3937e{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4e7d882a{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64bd5340{/static,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b5260a7{/,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5c78c897{/api,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c3fe2c{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@66bd026c{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node174.shef.ac.uk:4040
+2020-05-10 04:50:42 INFO  SparkContext:54 - Added file file:/home/acq18xx/ScalableML/assignment2/Q2_code_2.py at file:/home/acq18xx/ScalableML/assignment2/Q2_code_2.py with timestamp 1589082642463
+2020-05-10 04:50:42 INFO  Utils:54 - Copying /home/acq18xx/ScalableML/assignment2/Q2_code_2.py to /mnt/fastdata/acq18xx/spark-d8b252d3-8fc3-48a1-8a50-0ea96b7a78bd/userFiles-4fa1ce1c-c600-4ec4-83ce-228972954075/Q2_code_2.py
+2020-05-10 04:50:42 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-05-10 04:50:42 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43769.
+2020-05-10 04:50:42 INFO  NettyBlockTransferService:54 - Server created on sharc-node174.shef.ac.uk:43769
+2020-05-10 04:50:42 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-05-10 04:50:42 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node174.shef.ac.uk, 43769, None)
+2020-05-10 04:50:42 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node174.shef.ac.uk:43769 with 366.3 MB RAM, BlockManagerId(driver, sharc-node174.shef.ac.uk, 43769, None)
+2020-05-10 04:50:42 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node174.shef.ac.uk, 43769, None)
+2020-05-10 04:50:42 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node174.shef.ac.uk, 43769, None)
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14fccf08{/metrics/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acq18xx/ScalableML/assignment2/spark-warehouse/').
+2020-05-10 04:50:42 INFO  SharedState:54 - Warehouse path is 'file:/home/acq18xx/ScalableML/assignment2/spark-warehouse/'.
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@446758ab{/SQL,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@55db3168{/SQL/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9f8d2a8{/SQL/execution,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64626653{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-05-10 04:50:42 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@33fd2b0c{/static/sql,null,AVAILABLE,@Spark}
+2020-05-10 04:50:43 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+
+Start data preprocessing...
+
+Data preprocessing finished.
+Start training......
+Logistic Regression Execution time: 68.46562623977661
+auc = 0.599914
+
+RMSE = 45.5985
+
+GLM Execution time: 3.898282051086426
+
+MAE = 1.52121
+
